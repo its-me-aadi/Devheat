@@ -1,0 +1,266 @@
+body {
+    background-color: rgb(111, 118, 150);
+}
+
+h3 {
+    margin: 0;
+}
+
+.container {
+
+    /* width: 3000px;
+     height: 700px; */
+
+    margin: 10px;
+    display: flex;
+    max-width: 10000px;
+    height: 710px;
+
+
+
+
+}
+
+.left {
+
+    width: 30%;
+    background-color: #405d84;
+    border-radius: 10px;
+}
+
+.right {
+    width: 70%;
+    border-radius: 10px;
+    /* background-color: rgb(134, 160, 77); */
+    /* display: flex; */
+    background-image: url('https://wallpapercave.com/wp/wp8092702.jpg');
+
+}
+
+.block {
+    width: 300px;
+    height: 200px;
+}
+
+
+/* 
+ img {
+     width: px;
+     height: 100px;
+     border-radius: 50%;
+     overflow: hidden;
+     margin-left: 20px;
+ } */
+
+.searchbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px black;
+    margin: 2px;
+    border-radius: 2px;
+    height: 60px;
+}
+
+.search {
+    width: 70%;
+    margin: 10px;
+    border-radius: 10px;
+    height: 35px;
+    margin-left: -10px;
+}
+
+/* .namelist {
+
+     margin-left: 80px;
+ } */
+.mess {
+    height: 40 px;
+}
+
+strong {
+    position: relative;
+    left: 25px;
+    bottom: 30px;
+    font-size: 18px;
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    color: black;
+
+}
+
+/* .time {
+    position: relative;
+    left: 270px;
+    top: -45px; */
+/* } */
+
+.chat {
+    position: relative;
+    left: 110px;
+    top: 20 px;
+    font-size: 18px;
+    /* font-family: 'Lobster', cursive; */
+    font-weight: 400;
+    color: black;
+    margin: -23px;
+}
+
+.dp {
+    position: relative;
+    left: 10px;
+    top: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+hr {
+    background-color: #8290a1;
+    /* border: solid 1px black; */
+    border: 1px solid #8290a1;
+}
+
+.copyright {
+    color: whitesmoke;
+    position: relative;
+    left: 113px;
+    top: 5px;
+}
+
+.name {
+    background-color: rgb(4, 3, 14);
+    height: 9%;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.Propic {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 8px;
+    margin-left: 7px;
+}
+
+.Person_name {
+
+    position: relative;
+    left: 75px;
+    bottom: 52px;
+    font-size: 23px;
+    color: white;
+}
+
+.online {
+    position: relative;
+    left: 75px;
+    bottom: 73px;
+    font-size: 18px;
+    color: rgb(65, 158, 157);
+}
+
+.phone {
+    position: relative;
+    top: -128px;
+    left: 830px;
+    color: white;
+}
+
+.video {
+    position: relative;
+    top: -128px;
+    left: 870px;
+    color: white;
+
+}
+
+.dots {
+    position: relative;
+    top: -128px;
+    left: 910px;
+    color: white
+}
+.Chatings p {
+    position: relative;
+    right: 0;
+    max-width: 35%;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: #8290a1;
+    display: flex;
+
+
+
+}
+
+
+
+.rightside {
+    justify-content: flex-start;
+    margin-left: 630px;
+    padding: 8px;
+    /* color: white; */
+}
+
+.leftside {
+    justify-content: flex-start;
+    margin-left: 20px;
+    padding: 8px;
+    /* color: white; */
+
+}
+
+.keyboard {
+    width: 97%;
+    position: relative;
+    height: 65px;
+    background-color: rgb(17, 15, 34);
+    border: 0;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-left: 10px;
+
+}
+
+.keyboard input {
+    position: relative;
+    width: 80%;
+    border-radius: 30px;
+    margin: 5px 15px;
+    height: 45px;
+    border: 0ch;
+    padding: 5px;
+
+}
+
+.smile {
+    position: relative;
+    height: 30px;
+    justify-content: space-between;
+    left: 10px;
+    padding: 5px;
+    color: white;
+}
+
+.mic {
+    position: relative;
+    height: 35px;
+    /* justify-content: space-between; */
+    right: 10px;
+    padding: 0px;
+    color: white;
+
+}
+
+.camera {
+    /* position: relative;
+    height: 25px;
+    justify-content: space-between;
+    right: 12px;
+    padding: 5px; */
+    color: white;
+}

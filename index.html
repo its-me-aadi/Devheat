@@ -1,0 +1,1428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social-Hub-main-page</title>
+
+    <!-- bootstrap -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <!-- bootstrap java script -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+      integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- style sheet -->
+    <link rel="stylesheet" href="style sheets/styles.css" />
+
+    <!-- google fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=BIZ+UDGothic:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/4cacfa305a.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- friconix -->
+    <script defer src="https://friconix.com/cdn/friconix.js"></script>
+  </head>
+
+  <body onload="myFunction()">
+    <div id="loading">
+      <p style="font-size: xx-large; text-align: center; color: white">
+        Wait we are hacking NASA's WiFi for ya
+      </p>
+    </div>
+
+    <section id="title">
+      <!-- title section contain nav bar and logo -->
+
+      <!-- navigation bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="brandfont navbar-brand" href="#" style="color: #53cbfb">
+            Social-Hub
+            <i class="fa-solid fa-comments fa-2x"></i>
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="notidivchange collapse navbar-collapse"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav ml-auto">
+              <form class="form-inline my-2 my-lg-0">
+                <input
+                  class="form-control mr-sm-6"
+                  type="search"
+                  placeholder="Find People Around You"
+                  aria-label="Search"
+                />
+                <button
+                  class="btn btn-outline-dark my-2 my-sm-6 btn-primary"
+                  type="submit"
+                >
+                  Search
+                </button>
+              </form>
+              <li class="lichange nav-item active">
+                <a class="nav-link" href="#"
+                  ><i class="iconsize fa-solid fa-house-chimney"></i
+                ></a>
+              </li>
+              <li class="lichange nav-item active">
+                <a class="nav-link" href="#"
+                  ><i class="iconsize fa-solid fa-bell"></i>
+                </a>
+              </li>
+              <li class="lichange nav-item active">
+                <a class="nav-link" href="chat section.html"
+                  ><i class="iconsize fa-solid fa-envelope"></i
+                ></a>
+              </li>
+              <li class="lichange nav-item active">
+                <a class="nav-link" href="#"
+                  ><i class="iconsize fa-solid fa-gears"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <section class="mb-3">
+      <!-- the creat post line -->
+      <div class="container">
+        <div class="row height d-flex justify-content-center">
+          <div class="col-lg-12 col-md-8">
+            <div class="search" style="border-radius: 200px">
+              <input
+                class="formcontrol mr-sm-6"
+                type="search"
+                placeholder="Spark a Controversy.."
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-light my-2 my-sm-6" type="submit">
+                <i class="fi-cwsuxl-plus-solid"></i> Create
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="row m-auto">
+      <section class="col-lg-3">
+        <!-- left section -->
+        <div class="forborder card">
+          <div class="card-header pb-0">
+            <p class="fontchange">People You can be friend with</p>
+          </div>
+          <div class="forborder card">
+            <div class="card-body p-2">
+              <div class="d-flex">
+                <img
+                  src="style sheets/images/dhyey.jpeg"
+                  alt="dhyey sawalia"
+                  class="sugdp"
+                />
+                <p class="sugname m-2">
+                  <strong><em>Dhyey</em></strong>
+                </p>
+                <i class="addfr p-1 ml-auto mr-2 fi-xnsuxl-user-plus-solid"></i>
+              </div>
+            </div>
+          </div>
+          <div class="forborder card">
+            <div class="card-body p-2">
+              <div class="d-flex">
+                <img
+                  src="style sheets/images/yashraj.jpg"
+                  alt="yashraj"
+                  class="sugdp"
+                />
+                <p class="sugname m-2">
+                  <strong><em>Yashraj</em></strong>
+                </p>
+                <i class="addfr p-1 ml-auto mr-2 fi-xnsuxl-user-plus-solid"></i>
+              </div>
+            </div>
+          </div>
+          <div class="forborder card">
+            <div class="card-body p-2">
+              <div class="d-flex">
+                <img
+                  src="style sheets/images/aditya.jpg"
+                  alt="Sharma"
+                  class="sugdp"
+                />
+                <p class="sugname m-2">
+                  <strong><em>Aditya</em></strong>
+                </p>
+                <i class="addfr p-1 ml-auto mr-2 fi-xnsuxl-user-plus-solid"></i>
+              </div>
+            </div>
+          </div>
+          <div class="forborder card">
+            <div class="card-body p-2">
+              <div class="d-flex">
+                <img
+                  src="style sheets/images/hinata.jpg"
+                  alt="hinata"
+                  class="sugdp"
+                />
+                <p class="sugname m-2">
+                  <strong><em>Anamika Verma</em></strong>
+                </p>
+                <i class="addfr p-1 ml-auto mr-2 fi-xnsuxl-user-plus-solid"></i>
+              </div>
+            </div>
+          </div>
+          <div class="forborder card">
+            <div class="card-body p-2">
+              <div class="d-flex">
+                <img
+                  src="style sheets/images/Akash.jpg"
+                  alt="akki"
+                  class="sugdp"
+                />
+                <p class="sugname m-2">
+                  <strong><em>Akash Yadav</em></strong>
+                </p>
+                <i class="addfr p-1 ml-auto mr-2 fi-xnsuxl-user-plus-solid"></i>
+              </div>
+            </div>
+          </div>
+          <div class="forborder card">
+            <div class="card-body p-2">
+              <div class="d-flex">
+                <img
+                  src="style sheets/images/nami.jpg"
+                  alt="nami"
+                  class="sugdp"
+                />
+                <p class="sugname m-2">
+                  <strong><em>Nami</em></strong>
+                </p>
+                <i class="addfr p-1 ml-auto mr-2 fi-xnsuxl-user-plus-solid"></i>
+              </div>
+            </div>
+          </div>
+          <div class="forborder card">
+            <div class="card-body p-2">
+              <div class="d-flex">
+                <img
+                  src="style sheets/images/nezuko.jpg"
+                  alt="nezuko"
+                  class="sugdp"
+                />
+                <p class="sugname m-2">
+                  <strong><em>Nezuko-chan</em></strong>
+                </p>
+                <i class="addfr p-1 ml-auto mr-2 fi-xnsuxl-user-plus-solid"></i>
+              </div>
+            </div>
+          </div>
+          <div class="forborder card">
+            <div class="card-body p-2">
+              <div class="d-flex">
+                <img
+                  src="style sheets/images/hancock.jpg"
+                  alt="hancock"
+                  class="sugdp"
+                />
+                <p class="sugname m-2">
+                  <strong><em>Boa Hancock</em></strong>
+                </p>
+                <i class="addfr p-1 ml-auto mr-2 fi-xnsuxl-user-plus-solid"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="row col-lg-5">
+        <!-- section containing posts from users -->
+
+        <div class="col-lg-12 col-md-6 mb-4">
+          <div class="forborder card">
+            <div class="d-flex card-header">
+              <img
+                src="https://files.prokerala.com/news/photos/imgs/1200/rjd-chief-lalu-prasad-yadav-file-photo-ians-348896.jpg"
+                class="dp"
+              />
+
+              <p class="username">
+                <strong><em>Lalu Yadav</em></strong>
+              </p>
+              <p class="userplace">
+                <small><em>Switzerland</em></small>
+              </p>
+            </div>
+            <div class="flex card-body">
+              <img
+                class="userpost"
+                src="https://picsum.photos/490/510?random=1"
+              />
+            </div>
+            <!--   -->
+            <div class="card-footer">
+              <!-- div for like comment n share -->
+              <div class="row">
+                <i
+                  class="displaceleft posticons fa-solid fa-thumbs-up fa-2x"
+                ></i>
+                <i class="displaceleft posticons fa-solid fa-comment fa-2x"></i>
+                <i
+                  class="displaceleft posticons fa-solid fa-share-from-square fa-2x"
+                ></i>
+              </div>
+              <div class="forborder card m-1" style="text-align: center">
+                <div class="card-header">
+                  <strong>Comments</strong>
+                </div>
+                <div class="forborder card">
+                  <div class="dropright">
+                    <a
+                      class="forborder dropdown-item"
+                      role="button"
+                      id="dropdownMenuLink"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      <div class="card-body p-0">
+                        <div class="d-flex">
+                          <img
+                            src="https://m.media-amazon.com/images/I/51nTL5ReClL._SL500_.jpg"
+                            alt="comment1"
+                            class="dp"
+                          />
+                          <p class="sugname m-2">
+                            <strong><em>Rowart</em></strong>
+                          </p>
+                          <p class="m-2">good</p>
+                        </div>
+                      </div>
+                    </a>
+
+                    <div class="forborder dropdown-menu">
+                      <div class="card-header">Options</div>
+                      <div class="forborder card p-0">
+                        <div class="forborder card-body dropdown-item p-2">
+                          <i class="fa-solid fa-ban"></i>
+                          Block this person
+                        </div>
+                        <div class="forborder card-body dropdown-item p-2">
+                          <i class="fa-solid fa-comment-slash"></i>
+                          Block comments
+                        </div>
+                        <div class="forborder card-body dropdown-item p-2">
+                          <i class="fi-xnluxl-definition"></i>
+                          Limit upto 3 comments
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="dropright">
+                    <a
+                      class="forborder dropdown-item"
+                      role="button"
+                      id="dropdownMenuLink"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      <div class="card-body p-0">
+                        <div class="d-flex">
+                          <img
+                            src="https://i.pinimg.com/originals/c7/5c/ba/c75cbaaf96ec9833be8811c633b739bd.jpg"
+                            alt="comment1"
+                            class="dp"
+                          />
+                          <p class="sugname m-2">
+                            <strong><em>Joey Tribbiani</em></strong>
+                          </p>
+                          <p class="m-2">I went backpacking..</p>
+                        </div>
+                      </div>
+                    </a>
+                    <div class="forborder dropdown-menu">
+                      <div class="card-header">Options</div>
+                      <div class="forborder card p-0">
+                        <div class="forborder card-body dropdown-item p-2">
+                          <i class="fa-solid fa-ban"></i>
+                          Block this person
+                        </div>
+                        <div class="forborder card-body dropdown-item p-2">
+                          <i class="fa-solid fa-comment-slash"></i>
+                          Block comments
+                        </div>
+                        <div class="forborder card-body dropdown-item p-2">
+                          <i class="fi-xnluxl-definition"></i>
+                          Limit upto 3 comments
+                        </div>
+                      </div>
+                    </div>
+                    <form class="forborder form-inline dropdown-item">
+                      <input class="form-control type="search" placeholder="Add
+                      a comment" aria-label="Search">
+                      <button class="btn my-2 my-sm-6 btn-dark" type="submit">
+                        Post
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-12 col-md-6 col-lg-5 mb-4">
+          <div class="forborder card">
+            <div class="d-flex card-header">
+              <img
+                src="https://images.thequint.com/thequint/2018-08/e9598f6d-7ef1-4a1b-9956-200b92e55b98/AP18234384246756.jpg?auto=format%2Ccompress"
+                class="dp"
+              />
+
+              <p class="username">
+                <strong><em>Virat Kohli</em></strong>
+              </p>
+              <p class="userplace">
+                <small><em>Mumbai</em></small>
+              </p>
+            </div>
+            <div class="flex card-body">
+              <img
+                class="userpost"
+                src="https://imgk.timesnownews.com/story/Kohli_RCB_BCCL4_0.jpg"
+              />
+            </div>
+            <div class="card-footer">
+              <!-- div for like comment n share -->
+              <div class="row">
+                <i
+                  class="displaceleft posticons fa-solid fa-thumbs-up fa-2x"
+                ></i>
+                <i class="displaceleft posticons fa-solid fa-comment fa-2x"></i>
+                <i
+                  class="displaceleft posticons fa-solid fa-share-from-square fa-2x"
+                ></i>
+              </div>
+              <div class="forborder card m-1" style="text-align: center">
+                <div class="card-header">
+                  <strong>Comments</strong>
+                </div>
+                <div class="forborder card">
+                  <div class="dropright">
+                    <a
+                      class="forborder dropdown-item"
+                      role="button"
+                      id="dropdownMenuLink"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      <div class="card-body p-0">
+                        <div class="d-flex">
+                          <img
+                            src=" https://m.media-amazon.com/images/M/MV5BNGM5YmYwNjUtNzQyYS00OGY0LTljZDAtMDNiMjhiOTFiMzRiXkEyXkFqcGdeQXVyMTExNDQ2MTI@._V1_.jpg"
+                            alt="comment1"
+                            class="dp"
+                          />
+                          <p class="sugname m-2">
+                            <strong><em>Anushka</em></strong>
+                          </p>
+                          <p class="m-2">Hubby</p>
+                        </div>
+                      </div>
+                    </a>
+
+                    <div class="forborder dropdown-menu">
+                      <div class="card-header">Options</div>
+                      <div class="forborder card p-0">
+                        <div class="forborder card-body dropdown-item p-2">
+                          <i class="fa-solid fa-ban"></i>
+                          Block this person
+                        </div>
+                        <div class="forborder card-body dropdown-item p-2">
+                          <i class="fa-solid fa-comment-slash"></i>
+                          Block comments
+                        </div>
+                        <div class="forborder card-body dropdown-item p-2">
+                          <i class="fi-xnluxl-definition"></i>
+                          Limit upto 3 comments
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="dropright">
+                    <a
+                      class="forborder dropdown-item"
+                      role="button"
+                      id="dropdownMenuLink"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      <div class="card-body p-0">
+                        <div class="d-flex">
+                          <img
+                            src="https://opt.toiimg.com/recuperator/img/toi/m-69257289/69257289.jpg"
+                            alt="comment1"
+                            class="dp"
+                          />
+                          <p class="sugname m-2">
+                            <strong><em>Rohit</em></strong>
+                          </p>
+                          <p class="m-2">Nice "Captain"</p>
+                        </div>
+                      </div>
+                    </a>
+                    <div class="forborder dropdown-menu">
+                      <div class="card-header">Options</div>
+                      <div class="forborder card p-0">
+                        <div class="forborder card-body dropdown-item p-2">
+                          <i class="fa-solid fa-ban"></i>
+                          Block this person
+                        </div>
+                        <div class="forborder card-body dropdown-item p-2">
+                          <i class="fa-solid fa-comment-slash"></i>
+                          Block comments
+                        </div>
+                        <div class="forborder card-body dropdown-item p-2">
+                          <i class="fi-xnluxl-definition"></i>
+                          Limit upto 3 comments
+                        </div>
+                      </div>
+                    </div>
+                    <form class="forborder form-inline dropdown-item">
+                      <input class="form-control type="search" placeholder="Add
+                      a comment" aria-label="Search">
+                      <button class="btn my-2 my-sm-6 btn-dark" type="submit">
+                        Post
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-12 col-md-6 mb-4">
+          <div class="forborder card">
+            <div class="d-flex card-header">
+              <img
+                src="https://i.pinimg.com/736x/4c/f8/f8/4cf8f8c0cc9968971bd78e13a17e0a92.jpg"
+                class="dp"
+              />
+
+              <p class="username">
+                <strong><em>Satoru Gojo</em></strong>
+              </p>
+              <p class="userplace">
+                <small><em>Tokyo</em></small>
+              </p>
+            </div>
+            <div class="flex card-body">
+              <img
+                class="userpost"
+                src="https://images2.alphacoders.com/114/thumb-1920-1140283.jpg"
+              />
+            </div>
+            <div class="card-footer">
+              <!-- div for like comment n share -->
+              <div class="">
+                <i
+                  class="displaceleft posticons fa-solid fa-thumbs-up fa-2x"
+                ></i>
+                <i class="displaceleft posticons fa-solid fa-comment fa-2x"></i>
+                <i
+                  class="displaceleft posticons fa-solid fa-share-from-square fa-2x"
+                ></i>
+              </div>
+              <div class="forborder card m-1" style="text-align: center">
+                <div class="card-header">
+                  <strong>Comments</strong>
+                </div>
+                <div class="forborder card">
+                  <div class="dropright">
+                    <a
+                      class="forborder dropdown-item"
+                      role="button"
+                      id="dropdownMenuLink"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      <div class="card-body p-0">
+                        <div class="d-flex">
+                          <img
+                            src="
+                                                https://i.pinimg.com/originals/57/88/a5/5788a5963d1009e21a9c32acdd7d6214.jpg"
+                            alt="comment1"
+                            class="dp"
+                          />
+                          <p class="sugname m-2">
+                            <strong><em>Itadori</em></strong>
+                          </p>
+                          <p class="m-2">Domain Expansion yeeaah</p>
+                        </div>
+                      </div>
+                    </a>
+
+                    <div class="forborder dropdown-menu">
+                      <div class="card-header">Options</div>
+                      <div class="forborder card p-0">
+                        <div class="forborder card-body dropdown-item p-2">
+                          <i class="fa-solid fa-ban"></i>
+                          Block this person
+                        </div>
+                        <div class="forborder card-body dropdown-item p-2">
+                          <i class="fa-solid fa-comment-slash"></i>
+                          Block comments
+                        </div>
+                        <div class="forborder card-body dropdown-item p-2">
+                          <i class="fi-xnluxl-definition"></i>
+                          Limit upto 3 comments
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="dropright">
+                    <a
+                      class="forborder dropdown-item"
+                      role="button"
+                      id="dropdownMenuLink"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      <div class="card-body p-0">
+                        <div class="d-flex">
+                          <img
+                            src="https://i.pinimg.com/originals/5e/0c/02/5e0c023567ac12ea61b7242b7dd2374d.jpg"
+                            alt="comment1"
+                            class="dp"
+                          />
+                          <p class="sugname m-2">
+                            <strong><em>Kugisaki Nobara</em></strong>
+                          </p>
+                          <p class="m-2">Sensie🔥🔥</p>
+                        </div>
+                      </div>
+                    </a>
+                    <div class="forborder dropdown-menu">
+                      <div class="card-header">Options</div>
+                      <div class="forborder card p-0">
+                        <div class="forborder card-body dropdown-item p-2">
+                          <i class="fa-solid fa-ban"></i>
+                          Block this person
+                        </div>
+                        <div class="forborder card-body dropdown-item p-2">
+                          <i class="fa-solid fa-comment-slash"></i>
+                          Block comments
+                        </div>
+                        <div class="forborder card-body dropdown-item p-2">
+                          <i class="fi-xnluxl-definition"></i>
+                          Limit upto 3 comments
+                        </div>
+                      </div>
+                    </div>
+                    <form class="forborder form-inline dropdown-item">
+                      <input class="form-control type="search" placeholder="Add
+                      a comment" aria-label="Search">
+                      <button class="btn my-2 my-sm-6 btn-dark" type="submit">
+                        Post
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-12 col-md-6 mb-4">
+          <div class="forborder card">
+            <div class="d-flex card-header">
+              <img
+                src="https://www.themoviedb.org/t/p/w235_and_h235_face/ilPBHd3r3ahlipNQtjr4E3G04jJ.jpg"
+                class="dp"
+              />
+
+              <p class="username">
+                <strong><em>Johny Depp</em></strong>
+              </p>
+              <p class="userplace">
+                <small><em>Bihar</em></small>
+              </p>
+            </div>
+            <div class="flex card-body">
+              <img
+                class="userpost"
+                src="https://picsum.photos/490/510?random=2"
+              />
+            </div>
+            <div class="card-footer">
+              <!-- div for like comment n share -->
+              <div class="">
+                <i
+                  class="displaceleft posticons fa-solid fa-thumbs-up fa-2x"
+                ></i>
+                <i class="displaceleft posticons fa-solid fa-comment fa-2x"></i>
+                <i
+                  class="displaceleft posticons fa-solid fa-share-from-square fa-2x"
+                ></i>
+              </div>
+              <div class="forborder card m-1" style="text-align: center">
+                <div class="card-header">
+                  <strong>Comments</strong>
+                </div>
+                <div class="forborder card">
+                  <div class="dropright">
+                    <a
+                      class="forborder dropdown-item"
+                      role="button"
+                      id="dropdownMenuLink"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      <div class="card-body p-0">
+                        <div class="d-flex">
+                          <img
+                            src="https://static.wikia.nocookie.net/antagonists/images/b/b3/Salazar.jpg"
+                            alt="comment1"
+                            class="dp"
+                          />
+                          <p class="sugname m-2">
+                            <strong><em>Salazar</em></strong>
+                          </p>
+                          <p class="m-2">Waiting for ya</p>
+                        </div>
+                      </div>
+                    </a>
+
+                    <div class="forborder dropdown-menu">
+                      <div class="card-header">Options</div>
+                      <div class="forborder card p-0">
+                        <div class="forborder card-body dropdown-item p-2">
+                          <i class="fa-solid fa-ban"></i>
+                          Block this person
+                        </div>
+                        <div class="forborder card-body dropdown-item p-2">
+                          <i class="fa-solid fa-comment-slash"></i>
+                          Block comments
+                        </div>
+                        <div class="forborder card-body dropdown-item p-2">
+                          <i class="fi-xnluxl-definition"></i>
+                          Limit upto 3 comments
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="dropright">
+                    <a
+                      class="forborder dropdown-item"
+                      role="button"
+                      id="dropdownMenuLink"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      <div class="card-body p-0">
+                        <div class="d-flex">
+                          <img
+                            src="https://m.media-amazon.com/images/M/MV5BMjA4NDkyODA3M15BMl5BanBnXkFtZTgwMzUzMjYzNzM@._V1_.jpg"
+                            alt="comment1"
+                            class="dp"
+                          />
+                          <p class="sugname m-2">
+                            <strong><em>Amber</em></strong>
+                          </p>
+                          <p class="m-2">My dog stepped on a bee..</p>
+                        </div>
+                      </div>
+                    </a>
+                    <div class="forborder dropdown-menu">
+                      <div class="card-header">Options</div>
+                      <div class="forborder card p-0">
+                        <div class="forborder card-body dropdown-item p-2">
+                          <i class="fa-solid fa-ban"></i>
+                          Block this person
+                        </div>
+                        <div class="forborder card-body dropdown-item p-2">
+                          <i class="fa-solid fa-comment-slash"></i>
+                          Block comments
+                        </div>
+                        <div class="forborder card-body dropdown-item p-2">
+                          <i class="fi-xnluxl-definition"></i>
+                          Limit upto 3 comments
+                        </div>
+                      </div>
+                    </div>
+                    <form class="forborder form-inline dropdown-item">
+                      <input class="form-control type="search" placeholder="Add
+                      a comment" aria-label="Search">
+                      <button class="btn my-2 my-sm-6 btn-dark" type="submit">
+                        Post
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-12 col-md-6 mb-4">
+          <div class="forborder card">
+            <div class="d-flex card-header">
+              <img
+                src="https://wallpaperaccess.com/full/2665651.jpg"
+                class="dp"
+              />
+
+              <p class="username">
+                <strong><em>Monkey D. Luffy</em></strong>
+              </p>
+              <p class="userplace">
+                <small><em>Wano Country</em></small>
+              </p>
+            </div>
+            <div class="flex card-body">
+              <img
+                class="userpost"
+                src="https://wallpapercave.com/dwp1x/wp5955106.jpg"
+              />
+            </div>
+            <div class="card-footer">
+              <!-- div for like comment n share -->
+              <div class="">
+                <i
+                  class="displaceleft posticons fa-solid fa-thumbs-up fa-2x"
+                ></i>
+                <i class="displaceleft posticons fa-solid fa-comment fa-2x"></i>
+                <i
+                  class="displaceleft posticons fa-solid fa-share-from-square fa-2x"
+                ></i>
+              </div>
+              <div class="forborder card m-1" style="text-align: center">
+                <div class="card-header">
+                  <strong>Comments</strong>
+                </div>
+                <div class="forborder card">
+                  <div class="dropright">
+                    <a
+                      class="forborder dropdown-item"
+                      role="button"
+                      id="dropdownMenuLink"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      <div class="card-body p-0">
+                        <div class="d-flex">
+                          <img
+                            src="https://animesouls.com/wp-content/uploads/2021/10/Sabo-11.jpg"
+                            alt="comment1"
+                            class="dp"
+                          />
+                          <p class="sugname m-2">
+                            <strong><em>Sabo</em></strong>
+                          </p>
+                          <p class="m-2">My brother</p>
+                        </div>
+                      </div>
+                    </a>
+
+                    <div class="forborder dropdown-menu">
+                      <div class="card-header">Options</div>
+                      <div class="forborder card p-0">
+                        <div class="forborder card-body dropdown-item p-2">
+                          <i class="fa-solid fa-ban"></i>
+                          Block this person
+                        </div>
+                        <div class="forborder card-body dropdown-item p-2">
+                          <i class="fa-solid fa-comment-slash"></i>
+                          Block comments
+                        </div>
+                        <div class="forborder card-body dropdown-item p-2">
+                          <i class="fi-xnluxl-definition"></i>
+                          Limit upto 3 comments
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="dropright">
+                    <a
+                      class="forborder dropdown-item"
+                      role="button"
+                      id="dropdownMenuLink"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      <div class="card-body p-0">
+                        <div class="d-flex">
+                          <img
+                            src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/04/Kaido-Cropped.jpg"
+                            alt="comment1"
+                            class="dp"
+                          />
+                          <p class="sugname m-2">
+                            <strong><em>Yonko Kaido</em></strong>
+                          </p>
+                          <p class="m-2">I did a mistake</p>
+                        </div>
+                      </div>
+                    </a>
+                    <div class="forborder dropdown-menu">
+                      <div class="card-header">Options</div>
+                      <div class="forborder card p-0">
+                        <div class="forborder card-body dropdown-item p-2">
+                          <i class="fa-solid fa-ban"></i>
+                          Block this person
+                        </div>
+                        <div class="forborder card-body dropdown-item p-2">
+                          <i class="fa-solid fa-comment-slash"></i>
+                          Block comments
+                        </div>
+                        <div class="forborder card-body dropdown-item p-2">
+                          <i class="fi-xnluxl-definition"></i>
+                          Limit upto 3 comments
+                        </div>
+                      </div>
+                    </div>
+                    <form class="forborder form-inline dropdown-item">
+                      <input class="form-control type="search" placeholder="Add
+                      a comment" aria-label="Search">
+                      <button class="btn my-2 my-sm-6 btn-dark" type="submit">
+                        Post
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-12 col-md-6 mb-4">
+          <div class="forborder card">
+            <div class="d-flex card-header">
+              <img
+                src="https://i.pinimg.com/originals/2a/25/f6/2a25f65e9265dc8a413803a4e2e5adc1.jpg"
+                class="dp"
+              />
+
+              <p class="username">
+                <strong><em>Keerthi Suresh</em></strong>
+              </p>
+              <p class="userplace">
+                <small><em>Hyderabad</em></small>
+              </p>
+            </div>
+            <div class="flex card-body">
+              <img
+                class="userpost"
+                src="https://wallpaperaccess.com/full/1344365.jpg"
+              />
+            </div>
+            <div class="card-footer">
+              <!-- div for like comment n share -->
+              <div class="">
+                <i
+                  class="displaceleft posticons fa-solid fa-thumbs-up fa-2x"
+                ></i>
+                <i class="displaceleft posticons fa-solid fa-comment fa-2x"></i>
+                <i
+                  class="displaceleft posticons fa-solid fa-share-from-square fa-2x"
+                ></i>
+              </div>
+              <div class="forborder card m-1" style="text-align: center">
+                <div class="card-header">
+                  <strong>Comments</strong>
+                </div>
+                <div class="forborder card">
+                  <div class="dropright">
+                    <a
+                      class="forborder dropdown-item"
+                      role="button"
+                      id="dropdownMenuLink"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      <div class="card-body p-0">
+                        <div class="d-flex">
+                          <img
+                            src="https://igimages.gumlet.io/tamil/home/vijay190322_1.jpg"
+                            alt="comment1"
+                            class="dp"
+                          />
+                          <p class="sugname m-2">
+                            <strong><em>Vijay</em></strong>
+                          </p>
+                          <p class="m-2">good</p>
+                        </div>
+                      </div>
+                    </a>
+
+                    <div class="forborder dropdown-menu">
+                      <div class="card-header">Options</div>
+                      <div class="forborder card p-0">
+                        <div class="forborder card-body dropdown-item p-2">
+                          <i class="fa-solid fa-ban"></i>
+                          Block this person
+                        </div>
+                        <div class="forborder card-body dropdown-item p-2">
+                          <i class="fa-solid fa-comment-slash"></i>
+                          Block comments
+                        </div>
+                        <div class="forborder card-body dropdown-item p-2">
+                          <i class="fi-xnluxl-definition"></i>
+                          Limit upto 3 comments
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="dropright">
+                    <a
+                      class="forborder dropdown-item"
+                      role="button"
+                      id="dropdownMenuLink"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      <div class="card-body p-0">
+                        <div class="d-flex">
+                          <img
+                            src="https://www.thefamouspeople.com/profiles/images/mahesh-babu-1.jpg"
+                            alt="comment1"
+                            class="dp"
+                          />
+                          <p class="sugname m-2">
+                            <strong><em>Mahesh Babu</em></strong>
+                          </p>
+                          <p class="m-2">Beauty</p>
+                        </div>
+                      </div>
+                    </a>
+                    <div class="forborder dropdown-menu">
+                      <div class="card-header">Options</div>
+                      <div class="forborder card p-0">
+                        <div class="forborder card-body dropdown-item p-2">
+                          <i class="fa-solid fa-ban"></i>
+                          Block this person
+                        </div>
+                        <div class="forborder card-body dropdown-item p-2">
+                          <i class="fa-solid fa-comment-slash"></i>
+                          Block comments
+                        </div>
+                        <div class="forborder card-body dropdown-item p-2">
+                          <i class="fi-xnluxl-definition"></i>
+                          Limit upto 3 comments
+                        </div>
+                      </div>
+                    </div>
+                    <form class="forborder form-inline dropdown-item">
+                      <input class="form-control type="search" placeholder="Add
+                      a comment" aria-label="Search">
+                      <button class="btn my-2 my-sm-6 btn-dark" type="submit">
+                        Post
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-12 col-md-6 mb-4">
+          <div class="forborder card">
+            <div class="d-flex card-header">
+              <img
+                src="https://i.pinimg.com/originals/64/95/d0/6495d05033eb2029300f4a6fe5151952.jpg"
+                class="dp"
+              />
+
+              <p class="username">
+                <strong><em>Hermione Gr</em></strong>
+              </p>
+              <p class="userplace">
+                <small><em>Hogwarts</em></small>
+              </p>
+            </div>
+            <div class="flex card-body">
+              <img
+                class="userpost"
+                src="https://static.onecms.io/wp-content/uploads/sites/6/2015/09/touts-hermione-02.jpg"
+              />
+            </div>
+            <div class="card-footer">
+              <!-- div for like comment n share -->
+              <div class="">
+                <i
+                  class="displaceleft posticons fa-solid fa-thumbs-up fa-2x"
+                ></i>
+                <i class="displaceleft posticons fa-solid fa-comment fa-2x"></i>
+                <i
+                  class="displaceleft posticons fa-solid fa-share-from-square fa-2x"
+                ></i>
+              </div>
+              <div class="forborder card m-1" style="text-align: center">
+                <div class="card-header">
+                  <strong>Comments</strong>
+                </div>
+                <div class="forborder card">
+                  <div class="dropright">
+                    <a
+                      class="forborder dropdown-item"
+                      role="button"
+                      id="dropdownMenuLink"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      <div class="card-body p-0">
+                        <div class="d-flex">
+                          <img
+                            src="https://images.immediate.co.uk/production/volatile/sites/3/2016/05/108890.jpg"
+                            alt="comment1"
+                            class="dp"
+                          />
+                          <p class="sugname m-2">
+                            <strong><em>Ron Weasly</em></strong>
+                          </p>
+                          <p class="m-2">Nice</p>
+                        </div>
+                      </div>
+                    </a>
+
+                    <div class="forborder dropdown-menu">
+                      <div class="card-header">Options</div>
+                      <div class="forborder card p-0">
+                        <div class="forborder card-body dropdown-item p-2">
+                          <i class="fa-solid fa-ban"></i>
+                          Block this person
+                        </div>
+                        <div class="forborder card-body dropdown-item p-2">
+                          <i class="fa-solid fa-comment-slash"></i>
+                          Block comments
+                        </div>
+                        <div class="forborder card-body dropdown-item p-2">
+                          <i class="fi-xnluxl-definition"></i>
+                          Limit upto 3 comments
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="dropright">
+                    <a
+                      class="forborder dropdown-item"
+                      role="button"
+                      id="dropdownMenuLink"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      <div class="card-body p-0">
+                        <div class="d-flex">
+                          <img
+                            src="https://static.parade.com/wp-content/uploads/2021/11/harry-potter-hogwarts-freebie-ftr.jpeg"
+                            alt="comment1"
+                            class="dp"
+                          />
+                          <p class="sugname m-2">
+                            <strong><em>Harry potter</em></strong>
+                          </p>
+                          <p class="m-2">I love Ginny</p>
+                        </div>
+                      </div>
+                    </a>
+                    <div class="forborder dropdown-menu">
+                      <div class="card-header">Options</div>
+                      <div class="forborder card p-0">
+                        <div class="forborder card-body dropdown-item p-2">
+                          <i class="fa-solid fa-ban"></i>
+                          Block this person
+                        </div>
+                        <div class="forborder card-body dropdown-item p-2">
+                          <i class="fa-solid fa-comment-slash"></i>
+                          Block comments
+                        </div>
+                        <div class="forborder card-body dropdown-item p-2">
+                          <i class="fi-xnluxl-definition"></i>
+                          Limit upto 3 comments
+                        </div>
+                      </div>
+                    </div>
+                    <form class="forborder form-inline dropdown-item">
+                      <input class="form-control type="search" placeholder="Add
+                      a comment" aria-label="Search">
+                      <button class="btn my-2 my-sm-6 btn-dark" type="submit">
+                        Post
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-12 col-md-6 mb-4">
+          <div class="forborder card">
+            <div class="d-flex card-header">
+              <img
+                src="https://gumlet.assettype.com/freepressjournal/2020-02/95258712-e119-4c2e-9d7f-7aee33fa6107/Amit_Shah.jpg"
+                class="dp"
+              />
+
+              <p class="username">
+                <strong><em>Deadly Duo</em></strong>
+              </p>
+              <p class="userplace">
+                <small><em>Pakistan</em></small>
+              </p>
+            </div>
+            <div class="flex card-body">
+              <img
+                class="userpost"
+                src="https://static.langimg.com/thumb/msid-91421998,imgsize-2356735,width-700,height-525,resizemode-75/navbharat-times.jpg"
+              />
+            </div>
+            <div class="card-footer">
+              <!-- div for like comment n share -->
+              <div class="">
+                <i
+                  class="displaceleft posticons fa-solid fa-thumbs-up fa-2x"
+                ></i>
+                <i class="displaceleft posticons fa-solid fa-comment fa-2x"></i>
+                <i
+                  class="displaceleft posticons fa-solid fa-share-from-square fa-2x"
+                ></i>
+              </div>
+              <div class="forborder card m-1" style="text-align: center">
+                <div class="card-header">
+                  <strong>Comments</strong>
+                </div>
+                <div class="forborder card">
+                  <div class="dropright">
+                    <a
+                      class="forborder dropdown-item"
+                      role="button"
+                      id="dropdownMenuLink"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      <div class="card-body p-0">
+                        <div class="d-flex">
+                          <img
+                            src="https://images.newindianexpress.com/uploads/user/imagelibrary/2022/1/31/w600X390/Mamata_Banerjee_PTI_Photo.jpg"
+                            alt="comment1"
+                            class="dp"
+                          />
+                          <p class="sugname m-2">
+                            <strong><em>Mamta</em></strong>
+                          </p>
+                          <p class="m-2">On my way to delhi</p>
+                        </div>
+                      </div>
+                    </a>
+
+                    <div class="forborder dropdown-menu">
+                      <div class="card-header">Options</div>
+                      <div class="forborder card p-0">
+                        <div class="forborder card-body dropdown-item p-2">
+                          <i class="fa-solid fa-ban"></i>
+                          Block this person
+                        </div>
+                        <div class="forborder card-body dropdown-item p-2">
+                          <i class="fa-solid fa-comment-slash"></i>
+                          Block comments
+                        </div>
+                        <div class="forborder card-body dropdown-item p-2">
+                          <i class="fi-xnluxl-definition"></i>
+                          Limit upto 3 comments
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="dropright">
+                    <a
+                      class="forborder dropdown-item"
+                      role="button"
+                      id="dropdownMenuLink"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      <div class="card-body p-0">
+                        <div class="d-flex">
+                          <img
+                            src="https://images.moneycontrol.com/static-mcnews/2021/12/rahul-gandhi-in-protest-643x435.jpg"
+                            alt="comment1"
+                            class="dp"
+                          />
+                          <p class="sugname m-2">
+                            <strong><em>Rahul Gandhi</em></strong>
+                          </p>
+                          <p class="m-2">Nice pic</p>
+                        </div>
+                      </div>
+                    </a>
+                    <div class="forborder dropdown-menu">
+                      <div class="card-header">Options</div>
+                      <div class="forborder card p-0">
+                        <div class="forborder card-body dropdown-item p-2">
+                          <i class="fa-solid fa-ban"></i>
+                          Block this person
+                        </div>
+                        <div class="forborder card-body dropdown-item p-2">
+                          <i class="fa-solid fa-comment-slash"></i>
+                          Block comments
+                        </div>
+                        <div class="forborder card-body dropdown-item p-2">
+                          <i class="fi-xnluxl-definition"></i>
+                          Limit upto 3 comments
+                        </div>
+                      </div>
+                    </div>
+                    <form class="forborder form-inline dropdown-item">
+                      <input class="form-control type="search" placeholder="Add
+                      a comment" aria-label="Search">
+                      <button class="btn my-2 my-sm-6 btn-dark" type="submit">
+                        Post
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="col-lg-4" style="text-align: center">
+        <!-- right section -->
+        <div class="forborder card">
+          <dic class="card-header p-0">
+            <center>
+              <p class="fontchange">Recent Updates</p>
+            </center>
+          </dic>
+          <div class="forborder card">
+            <div class="card-body p-0">
+              <div class="flex">
+                <p class="activities">
+                  Akruti Singh and 4 others liked your post
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="forborder card">
+            <div class="card-body p-0">
+              <div class="flex">
+                <p class="activities">Harshita sent a follow request</p>
+              </div>
+            </div>
+          </div>
+          <div class="forborder card">
+            <div class="card-body p-0">
+              <div class="flex">
+                <p class="activities">Aditi Sharma replied on your comment</p>
+              </div>
+            </div>
+          </div>
+          <div class="forborder card">
+            <div class="card-body p-0">
+              <div class="flex">
+                <p class="activities">Shreya liked your comment</p>
+              </div>
+            </div>
+          </div>
+          <div class="forborder card">
+            <div class="card-body p-0">
+              <div class="flex">
+                <p class="activities">Heli tagged you in a post</p>
+              </div>
+            </div>
+          </div>
+          <div class="forborder card">
+            <div class="card-body p-0">
+              <div class="flex">
+                <p class="activities">Ileana started a live video</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- preloader java script -->
+    <script>
+      function myFunction() {
+        var preloader = document.getElementById("loading");
+        preloader.style.display = "none";
+      }
+    </script>
+  </body>
+</html>

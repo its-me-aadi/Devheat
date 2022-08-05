@@ -1,0 +1,190 @@
+body {
+    background-color: #040404;
+
+}
+
+#loading {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: black url('https://i.gifer.com/6ka.gif') no-repeat center;
+    z-index: 99999;
+}
+
+
+
+/* title section */
+#title {
+    background-color: #003c81;
+    border-radius: 40px;
+    box-shadow: 5px 5px rgb(13, 104, 179);
+    margin-bottom: 6px;
+}
+
+.brandfont {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+.notidivchange {
+    text-align: centre;
+}
+
+.lichange {
+    margin-top: 1.2%;
+    margin-left: 20px;
+}
+
+.iconsize {
+    font-size: 1.5rem;
+}
+
+.iconsize:hover {
+    color: #a6acb4;
+    font-size: 170%;
+}
+
+/* search box  for create post */
+.search {
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+
+}
+
+.search input {
+
+    height: 60px;
+    text-indent: 25px;
+    border: 2px solid #d6d4d4;
+}
+
+.formcontrol {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 200px;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.search input:focus {
+
+    box-shadow: none;
+    border: 2px solid blue;
+}
+
+.search .labelicon {
+
+    position: absolute;
+    top: 15px;
+    left: 5px;
+}
+
+.search button {
+
+    position: absolute;
+    background-color: #57606f;
+    border-radius: 200px;
+    top: 0px;
+    right: 5px;
+    height: 40px;
+    width: 110px;
+
+}
+
+.search button:hover {
+    background-color: #a4b0be;
+}
+
+/* search box over */
+.displaceleft:hover {
+    animation-name: displaceleft;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+}
+
+/* designing posts */
+
+.forborder {
+    border-radius: 20px;
+    background-color: #53cbfb;
+}
+
+
+/* for header section */
+
+.dp {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.username {
+    margin-left: 2%;
+}
+
+.userplace {
+    position: relative;
+    top: 17px;
+    left: -80px
+}
+
+.userpost {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.posticons {
+    margin: auto;
+    width: 30%;
+    padding-left: 12%;
+}
+
+.posticons:hover {
+    color: #495057;
+}
+
+@keyframes displaceleft {
+    from {
+        padding-left: 12%;
+    }
+
+    to {
+        padding-left: 15%;
+    }
+}
+
+/* left side */
+.sugdp {
+    border-radius: 30%;
+    width: 35px;
+    height: 35px;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.sugname {
+    color: #040404;
+}
+
+.fontchange {
+    font-family: 'Titan One', cursive;
+    font-weight: bold;
+    color: #040404;
+}
+.addfr:hover{
+    color: #57606f;
+    font-size: 110%;
+}
+.activities{
+    font-family: 'Titan One', cursive;
+    color: #040404;
+}
